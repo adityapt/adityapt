@@ -22,7 +22,7 @@ I lead of Team of 8 Data Scientits that add business value through advanced mode
 - 🔗 **DAG causal discovery** to reveal channel interdependencies
 - 📉 **Response curves** with Hill saturation for budget optimization
 - 🌍 **Multi-region modeling** with learnable region-specific effects
-- ⚡ **Production-ready**: 93% holdout R², 3.6% train-test gap
+- ⚡ **Performance**: 93% holdout R², 3.6% train-test gap
 
 ```bash
 pip install deepcausalmmm
