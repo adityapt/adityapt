@@ -2,13 +2,13 @@
 
 # Hi, I'm Aditya Puttaparthi Tirumala 👋
 
-### Principal Data Scientist | Causal Inference & Marketing Science
+### Principal Data Scientist | Causal Inference & Marketing Science | Data Science Leadership!
 
-My Team and I build advanced statistical models and machine learning systems that help organizations make data-driven decisions. My work focuses on **causal inference**, **marketing mix modeling**, and **deep learning** for time series analysis.
+I lead of Team of 8 Data Scientits that add business value through advanced modeling. My Team and I build advanced statistical models and machine learning systems that help organizations make data-driven decisions. My work focuses on **causal inference**, **marketing mix modeling**, and **deep learning** for time series analysis.
 
 ---
 
-## 🚀 Featured Project: DeepCausalMMM
+## 🚀 DeepCausalMMM
 
 **Creator and maintainer of [DeepCausalMMM](https://github.com/adityapt/deepcausalmmm)** - an open-source Python package for Marketing Mix Modeling with causal inference and deep learning.
 
