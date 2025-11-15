@@ -172,20 +172,11 @@ pip install deepcausalmmm📖 [Documentation](https://deepcausalmmm.readthedocs.
 - ✅ Integrated 14+ interactive visualizations
 - ✅ Achieved 93% holdout R² with 3.6% performance gap
 
-### 📦 Package Highlights
-- **Installation**: `pip install deepcausalmmm`
-- **Documentation**: [deepcausalmmm.readthedocs.io](https://deepcausalmmm.readthedocs.io/)
-- **License**: MIT (fully open source)
-- **Python**: 3.9+ compatible
-- **Framework**: PyTorch 2.0+
-
-### 🏆 Technical Achievements
-- Zero-hardcoding philosophy for generalizability
-- Production-ready with proven real-world performance
-- Comprehensive test coverage (28 tests)
-- Full backward compatibility maintained
-- Extensive visualization suite (14+ interactive dashboards)
-
+  - **Installation**: `pip install deepcausalmmm`
+  - **Documentation**: [deepcausalmmm.readthedocs.io](https://deepcausalmmm.readthedocs.io/)
+  - **License**: MIT (fully open source)
+  - **Python**: 3.9+ compatible
+  - **Framework**: PyTorch 2.0+
 ---
 
 ## 📈 GitHub Stats
@@ -217,12 +208,11 @@ Currently exploring:
 
 ## 💡 Philosophy
 
-> "Build AI systems that are both theoretically rigorous and practically useful. Combine deep learning with causal inference to create tools that explain *why*, not just *what*."
+> "Build AI/ML systems that are both theoretically rigorous and practically useful. Combine machine learning with causal inference to create tools that explain *why*, not just *what*."
 
 I believe in:
 - 🤖 **AI for Good**: Building LLM systems that augment human decision-making
 - 📖 **Open Science**: Making research accessible and reproducible
-- 🔧 **Production Quality**: Code that works reliably in real-world settings
 - 📚 **Documentation**: Clear guides that help others learn and contribute
 - 🤝 **Community**: Collaborative development and knowledge sharing
 - 🎯 **Impact**: Solving real problems with elegant solutions
@@ -239,19 +229,6 @@ I believe in:
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:puttaparthy.aditya@gmail.com)
 
 </div>
-
----
-
-## 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- Coming soon: Building production LLM agentic systems for marketing
-- Deep dive: RAG implementation with ChromaDB for MMM
-- Tutorial: Building production-ready MMM models
-- Guide: Response curves and budget optimization
-<!-- BLOG-POST-LIST:END -->
-
----
 
 ## 🤝 Open to Collaborate On
 
