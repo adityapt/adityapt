@@ -1,10 +1,45 @@
-<!-- README.md inside username/username repo -->
-
 # Hi, I'm Aditya Puttaparthi Tirumala 👋
 
-### Principal Data Scientist | Causal Inference & Marketing Science | Data Science Leadership!
+### Principal Data Scientist | Causal Inference & Marketing Science | AI/LLM Systems | Data Science Leadership
 
-I lead of Team of 8 Data Scientits that add business value through advanced modeling. My Team and I build advanced statistical models and machine learning systems that help organizations make data-driven decisions. My work focuses on **causal inference**, **marketing mix modeling**, and **deep learning** for time series analysis.
+I lead a team of 8 Data Scientists that add business value through advanced modeling. My team and I build advanced statistical models, machine learning systems, and AI-powered tools that help organizations make data-driven decisions. My work focuses on **causal inference**, **marketing mix modeling**, **LLM agentic systems**, and **deep learning** for time series analysis.
+
+---
+
+## 🤖 SAGE - AI MMM Copilot
+
+**[SAGE](https://github.com/adityapt/SAGE)** - Strategic AI-Guided Explorer for Marketing Performance. An AI-powered copilot for Marketing Mix Modeling with natural language interface.
+
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://sage.streamlit.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+
+### Key Features:
+- 🤖 **Agentic AI System** with OpenAI function calling
+- 💬 **Natural language interface** - ask questions in plain English
+- 📊 **Automatic visualizations** - generates Plotly charts on demand
+- 🎯 **Budget optimization** - SLSQP-based allocation across channels
+- 🧠 **RAG-powered insights** - ChromaDB knowledge base with semantic search
+- ⚡ **Real-time analysis** - instant answers to MMM questions
+
+# Try it live
+https://SAGEinsights.streamlit.app🚀 [Live Demo](https://SAGEinsights.streamlit.app) | 📖 [GitHub](https://github.com/adityapt/SAGE)
+
+---
+
+## 🧠 LLM-Copilot
+
+**[llm-copilot](https://github.com/adityapt/llm-copilot)** - Production-ready agentic system for Marketing Mix Modeling with LLM orchestration, RAG, and code execution.
+
+### Architecture Highlights:
+- 🎭 **Agentic System**: OpenAI function calling for tool orchestration
+- 📚 **RAG Implementation**: ChromaDB + OpenAI embeddings for semantic search
+- 🔧 **Dynamic Code Execution**: Safe Python sandbox for on-the-fly analysis
+- 📈 **Response Curve Fitting**: Automatic Hill curve generation with deepcausalmmm
+- 🗃️ **Knowledge Base**: Stores curves, benchmarks, glossary, and best practices
+- 🔌 **Multi-Database Support**: 10+ connectors (Databricks, Snowflake, BigQuery, etc.)
+
+pip install git+https://github.com/adityapt/llm-copilot.git**Tech**: OpenAI GPT-4, ChromaDB, LangChain patterns, Pandas, Plotly
 
 ---
 
@@ -24,15 +59,18 @@ I lead of Team of 8 Data Scientits that add business value through advanced mode
 - 🌍 **Multi-region modeling** with learnable region-specific effects
 - ⚡ **Performance**: 93% holdout R², 3.6% train-test gap
 
-```bash
-pip install deepcausalmmm
-```
-
-📖 [Documentation](https://deepcausalmmm.readthedocs.io/) | 🎯 [Quick Start](https://deepcausalmmm.readthedocs.io/en/latest/quickstart.html) | 📝 [Examples](https://github.com/adityapt/deepcausalmmm/tree/main/examples)
+pip install deepcausalmmm📖 [Documentation](https://deepcausalmmm.readthedocs.io/) | 🎯 [Quick Start](https://deepcausalmmm.readthedocs.io/en/latest/quickstart.html) | 📝 [Examples](https://github.com/adityapt/deepcausalmmm/tree/main/examples)
 
 ---
 
 ## 💼 Expertise
+
+### AI & LLM Systems
+- Agentic system design with function calling
+- Retrieval-Augmented Generation (RAG)
+- Prompt engineering & Chain-of-Thought
+- Vector databases (ChromaDB, Pinecone)
+- LLM orchestration patterns
 
 ### Causal Inference
 - Marketing Mix Modeling (MMM)
@@ -60,6 +98,11 @@ pip install deepcausalmmm
 
 ## 🛠️ Tech Stack
 
+### AI & LLM
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=for-the-badge&logo=database&logoColor=white)
+
 ### Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -73,6 +116,7 @@ pip install deepcausalmmm
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 
 ### Visualization & Dashboards
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -85,9 +129,19 @@ pip install deepcausalmmm
 
 ---
 
-## 🔬 Research & Publications
+## 🔬 Development Work
 
 ### Open Source Contributions
+- **SAGE AI Copilot** (2025) - AI-powered MMM assistant with agentic system
+  - Deployed on Streamlit Cloud
+  - Natural language interface for marketing analytics
+  - RAG-powered insights with ChromaDB
+  
+- **LLM-Copilot** (2025) - Production agentic system for MMM
+  - OpenAI function calling orchestration
+  - Dynamic code execution sandbox
+  - Multi-database connectivity
+
 - **DeepCausalMMM** (2025) - Advanced MMM with causal inference
   - Published on PyPI with 1.0.17+ versions
   - Comprehensive documentation on ReadTheDocs
@@ -96,11 +150,19 @@ pip install deepcausalmmm
 
 ### Academic Work
 - ORCID: [0009-0008-9495-3932](https://orcid.org/0009-0008-9495-3932)
-- Focus areas: Causal inference, marketing analytics, time series modeling and more!
+- Focus areas: Causal inference, marketing analytics, LLM systems, time series modeling, Marketing mix modeling
 
 ---
 
 ## 📊 Recent Work & Achievements
+
+### 🤖 SAGE & LLM-Copilot (November 2025)
+- ✅ Built production agentic system with OpenAI function calling
+- ✅ Implemented RAG with ChromaDB for semantic knowledge retrieval
+- ✅ Created natural language interface for MMM analysis
+- ✅ Integrated automatic budget optimization algorithms
+- ✅ Deployed live Streamlit application
+- ✅ Added 10+ database connectors (Databricks, Snowflake, etc.)
 
 ### 🎯 DeepCausalMMM v1.0.17 (October 2025)
 - ✅ Added non-linear response curves with Hill saturation
@@ -142,6 +204,8 @@ pip install deepcausalmmm
 ## 🎓 Continuous Learning
 
 Currently exploring:
+- **LLM agent architectures** and multi-agent systems
+- **RAG optimization** techniques and hybrid search
 - **Transformer architectures** for time series
 - **Causal discovery algorithms** (NOTEARS, PC, GES)
 - **Bayesian deep learning** for uncertainty quantification
@@ -152,9 +216,10 @@ Currently exploring:
 
 ## 💡 Philosophy
 
-> "Build tools that are both theoretically rigorous and practically useful. Open source is the bridge between academic research and real-world impact."
+> "Build AI systems that are both theoretically rigorous and practically useful. Combine deep learning with causal inference to create tools that explain *why*, not just *what*."
 
 I believe in:
+- 🤖 **AI for Good**: Building LLM systems that augment human decision-making
 - 📖 **Open Science**: Making research accessible and reproducible
 - 🔧 **Production Quality**: Code that works reliably in real-world settings
 - 📚 **Documentation**: Clear guides that help others learn and contribute
@@ -168,7 +233,6 @@ I believe in:
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adityapt/)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@adityapt)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-9495-3932)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adityapt)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:puttaparthy.aditya@gmail.com)
@@ -177,19 +241,11 @@ I believe in:
 
 ---
 
-## 🌟 Featured Repositories
-
-### [DeepCausalMMM](https://github.com/adityapt/deepcausalmmm)
-Advanced Marketing Mix Modeling with causal inference and deep learning. Production-ready Python package with comprehensive documentation.
-
-**Tech**: Python, PyTorch, Pandas, Plotly, NetworkX
-
----
-
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- Coming soon: Deep dive into causal inference for marketing
+- Coming soon: Building production LLM agentic systems for marketing
+- Deep dive: RAG implementation with ChromaDB for MMM
 - Tutorial: Building production-ready MMM models
 - Guide: Response curves and budget optimization
 <!-- BLOG-POST-LIST:END -->
@@ -198,6 +254,7 @@ Advanced Marketing Mix Modeling with causal inference and deep learning. Product
 
 ## 🤝 Open to Collaborate On
 
+- 🤖 LLM agentic systems and RAG applications
 - 🔬 Causal inference research and applications
 - 📊 Marketing analytics and MMM projects
 - 🧠 Deep learning for time series
