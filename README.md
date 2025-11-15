@@ -23,7 +23,7 @@ I lead a team of 8 Data Scientists that add business value through advanced mode
 - ⚡ **Real-time analysis** - instant answers to MMM questions
 
 # Try it live
-https://SAGEinsights.streamlit.app🚀 [Live Demo](https://SAGEinsights.streamlit.app) | 📖 [GitHub](https://github.com/adityapt/SAGE)
+https://SAGEinsights.streamlit.app | 🚀 [Live Demo](https://SAGEinsights.streamlit.app) | 📖 [GitHub](https://github.com/adityapt/SAGE)
 
 ---
 
@@ -39,7 +39,8 @@ https://SAGEinsights.streamlit.app🚀 [Live Demo](https://SAGEinsights.streamli
 - 🗃️ **Knowledge Base**: Stores curves, benchmarks, glossary, and best practices
 - 🔌 **Multi-Database Support**: 10+ connectors (Databricks, Snowflake, BigQuery, etc.)
 
-pip install git+https://github.com/adityapt/llm-copilot.git**Tech**: OpenAI GPT-4, ChromaDB, LangChain patterns, Pandas, Plotly
+pip install git+https://github.com/adityapt/llm-copilot.git 
+**Tech**: OpenAI GPT-4, ChromaDB, LangChain patterns, Pandas, Plotly
 
 ---
 
