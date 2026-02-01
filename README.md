@@ -29,7 +29,7 @@ https://SAGEinsights.streamlit.app | 🚀 [Live Demo](https://SAGEinsights.strea
 
 ## 🧠 LLM-Copilot
 
-**[llm-copilot](https://github.com/adityapt/llm-copilot)** - Production-ready agentic system for Marketing Mix Modeling with LLM orchestration, RAG, and code execution.
+**[llm-copilot](https://github.com/adityapt/llm-copilot)** -  Agentic system for Marketing Mix Modeling with LLM orchestration, RAG, and code execution.
 
 ### Architecture Highlights:
 - 🎭 **Agentic System**: OpenAI function calling for tool orchestration
@@ -138,16 +138,15 @@ pip install deepcausalmmm📖 [Documentation](https://deepcausalmmm.readthedocs.
   - Natural language interface for marketing analytics
   - RAG-powered insights with ChromaDB
   
-- **LLM-Copilot** (2025) - Production agentic system for MMM
+- **LLM-Copilot** (2025) - Agentic system for MMM
   - OpenAI function calling orchestration
   - Dynamic code execution sandbox
   - Multi-database connectivity
 
 - **DeepCausalMMM** (2025) - Advanced MMM with causal inference
-  - Published on PyPI with 1.0.17+ versions
-  - Comprehensive documentation on ReadTheDocs
-  - 28 comprehensive tests with 100% pass rate
-  - JOSS paper submitted
+  - Uses DeepLearning to build MMMs at scale
+  - Published on PyPI with 1.0.18+ versions
+  - JOSS paper is submitted and is being reviewed
 
 ### Academic Work
 - ORCID: [0009-0008-9495-3932](https://orcid.org/0009-0008-9495-3932)
@@ -155,22 +154,17 @@ pip install deepcausalmmm📖 [Documentation](https://deepcausalmmm.readthedocs.
 
 ---
 
-## 📊 Recent Work & Achievements
+## 📊 Recent Updates
 
 ### 🤖 SAGE & LLM-Copilot (November 2025)
-- ✅ Built production agentic system with OpenAI function calling
+- ✅ Built agentic system with OpenAI function calling
 - ✅ Implemented RAG with ChromaDB for semantic knowledge retrieval
 - ✅ Created natural language interface for MMM analysis
 - ✅ Integrated automatic budget optimization algorithms
 - ✅ Deployed live Streamlit application
 - ✅ Added 10+ database connectors (Databricks, Snowflake, etc.)
 
-### 🎯 DeepCausalMMM v1.0.17 (October 2025)
-- ✅ Added non-linear response curves with Hill saturation
-- ✅ Implemented proportional allocation for accurate scaling
-- ✅ Enhanced Hill parameter constraints (slope ≥ 2.0)
-- ✅ Integrated 14+ interactive visualizations
-- ✅ Achieved 93% holdout R² with 3.6% performance gap
+### 🎯 DeepCausalMMM v1.0.18 (Jan 2026)
 
   - **Installation**: `pip install deepcausalmmm`
   - **Documentation**: [deepcausalmmm.readthedocs.io](https://deepcausalmmm.readthedocs.io/)
@@ -209,14 +203,6 @@ Currently exploring:
 ## 💡 Philosophy
 
 > "Build AI/ML systems that are both theoretically rigorous and practically useful. Combine machine learning with causal inference to create tools that explain *why*, not just *what*."
-
-I believe in:
-- 🤖 **AI for Good**: Building LLM systems that augment human decision-making
-- 📖 **Open Science**: Making research accessible and reproducible
-- 📚 **Documentation**: Clear guides that help others learn and contribute
-- 🤝 **Community**: Collaborative development and knowledge sharing
-- 🎯 **Impact**: Solving real problems with elegant solutions
-
 ---
 
 ## 📫 Connect With Me
