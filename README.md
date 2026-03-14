@@ -1,137 +1,88 @@
-# Hi, I’m Aditya Puttaparthi Tirumala 👋
+# Aditya Puttaparthi Tirumala
 
-**Principal Data Scientist | Causal Inference & Marketing Science | AI / LLM Systems**
+Principal Data Scientist | Causal Inference & Marketing Science | AI / LLM Systems
 
-I lead a team of 8 data scientists building models and systems that actually get used. Most of my work sits at the intersection of **causal inference**, **marketing mix modeling**, and **LLM-powered decision support systems**.
-
-A recurring theme in my work:
-
-> the hard part isn’t modeling — it’s turning model outputs into decisions people trust.
-
-That’s where I focus.
+I lead a team of 8 data scientists. Most of my work is at the intersection of causal inference, marketing mix modeling, and LLM-powered decision support. The hard part in practice is not modeling—it’s turning model outputs into decisions people trust. That’s where I focus.
 
 ---
 
-## 🧠 What I Work On
+## Focus
 
-* Marketing Mix Modeling and Scalable Incrementality Testing Systems with explicit causal assumptions
-* Translating complex models into decision-ready insights
-* Agentic LLM systems that sit *on top of* statistical models (not instead of them)
-* Time series modeling where interpretability matters as much as accuracy
-
----
-
-## 🤖 SAGE — AI Copilot for Marketing Mix Modeling
-
-**[SAGE](https://github.com/adityapt/SAGE)** is an AI copilot designed to help users *interact with* MMMs using natural language.
-
-Most MMM tools fail at insight synthesis. SAGE was built to close that gap — even if it means being opinionated about workflows.
-
-**What it does well:**
-
-* Natural language Q&A over MMM outputs
-* Automatic generation of visualizations and diagnostics
-* Budget optimization using constrained numerical solvers
-* RAG-backed explanations grounded in model artifacts and documentation
-
-🔗 Live demo: [https://SAGEinsights.streamlit.app](https://SAGEinsights.streamlit.app)
-🔗 Repo: [https://github.com/adityapt/SAGE](https://github.com/adityapt/SAGE)
+- Marketing mix modeling and scalable incrementality testing with explicit causal structure
+- Turning complex models into decision-ready insights
+- Agentic LLM systems built on top of statistical models, not in place of them
+- Time series modeling where interpretability is as important as accuracy
 
 ---
 
-## 🧠 LLM-Copilot (Research / Systems Playground)
+## SAGE — AI Copilot for Marketing Mix Modeling
 
-**[llm-copilot](https://github.com/adityapt/llm-copilot)** is a more experimental project exploring how LLMs can orchestrate analytical workflows around MMMs.
+[SAGE](https://github.com/adityapt/SAGE) is an AI copilot for interacting with MMMs via natural language. It addresses the insight-synthesis gap that most MMM tools leave open.
 
-It focuses on:
+- Natural language Q&A over MMM outputs
+- Automatic visualizations and diagnostics
+- Budget optimization with constrained numerical solvers
+- RAG-backed explanations grounded in model artifacts and docs
 
-* Tool-calling and orchestration (LLMs as controllers, not predictors)
-* Retrieval-augmented generation over model outputs and benchmarks
-* Safe, scoped code execution for exploratory analysis
-* Integration with existing data platforms (Databricks, Snowflake, BigQuery, etc.)
-
-This project is intentionally modular — it’s where I test ideas before they harden into products.
+[Live demo](https://SAGEinsights.streamlit.app) · [Repo](https://github.com/adityapt/SAGE)
 
 ---
 
-## 🚀 DeepCausalMMM
+## Cerebro
 
-I’m the creator and maintainer of **[DeepCausalMMM](https://github.com/adityapt/deepcausalmmm)**, an open-source Python package for MMM that combines deep learning with causal structure.
+[Cerebro](https://github.com/adityapt/cerebro) is an agentic system that generates, validates, and executes Bayesian MMM code end-to-end. Agents infer an MMM spec (channels, controls, outcome) from your CSV, then orchestrate six modules—exploration, preprocessing, modeling (NumPyro/JAX), diagnostics, optimization, visualization—with no fixed templates. Hybrid validation (static, API, JAX tracing, execution) with self-healing and optional resume from any stage. Supports modular or monolithic generation and multiple LLM backends (OpenAI-compatible, Ollama, vLLM, MLX).
 
-**Design philosophy:**
-
-> Prefer interpretability and causal structure over black-box accuracy.
-
-Key ideas:
-
-* GRU-based temporal modeling for adstock and lag effects
-* DAG based causal graphs to capture channel interactions
-* Hill-type response curves for saturation and optimization
-* Multi-region modeling with shared structure and local effects
-
-📦 `pip install deepcausalmmm`
-📖 Docs: [https://deepcausalmmm.readthedocs.io](https://deepcausalmmm.readthedocs.io)
-
-A JOSS paper is currently under review.
+[Repo](https://github.com/adityapt/cerebro)
 
 ---
 
-## 💼 Background & Expertise
+## llm-copilot
 
-**Causal Inference**
-
-* MMM, DAGs, causal discovery (NOTEARS, PC, GES)
-* Treatment effects, counterfactual reasoning
-* Budget allocation under uncertainty
-
-**ML & Time Series**
-
-* GRU / LSTM models
-* Bayesian and frequentist approaches
-* Model diagnostics and failure analysis
-
-**LLM Systems**
-
-* Agentic architectures and tool calling
-* RAG systems and vector search
-* Evaluation and guardrails for analytical use cases
+[llm-copilot](https://github.com/adityapt/llm-copilot) is an experimental project on LLM-orchestrated analytical workflows around MMMs: tool-calling and orchestration, RAG over model outputs and benchmarks, scoped code execution, and integration with Databricks, Snowflake, BigQuery. Modular by design—where I test ideas before they become products.
 
 ---
 
-Academic profile:
-ORCID — [https://orcid.org/0009-0008-9495-3932](https://orcid.org/0009-0008-9495-3932)
+## DeepCausalMMM
+
+Creator and maintainer of [DeepCausalMMM](https://github.com/adityapt/deepcausalmmm), an open-source Python package for MMM that combines deep learning with causal structure. Design principle: interpretability and causal structure over black-box accuracy.
+
+- GRU-based temporal modeling for adstock and lag effects
+- DAG-based causal graphs for channel interactions
+- Hill-type response curves for saturation and optimization
+- Multi-region modeling with shared structure and local effects
+
+`pip install deepcausalmmm` · [Docs](https://deepcausalmmm.readthedocs.io)
+
+A JOSS paper is under review.
 
 ---
 
-## 📚 What I’m Exploring Lately
+## Background
 
-* Multi-agent LLM systems for analytical workflows
-* Hybrid RAG (structured + unstructured retrieval)
-* Causal discovery in high-dimensional time series
-* Uncertainty quantification in decision-focused ML
-* Privacy-aware and federated MMMs
+**Causal inference:** MMM, DAGs, causal discovery (NOTEARS, PC, GES), treatment effects, counterfactual reasoning, budget allocation under uncertainty.
 
----
+**ML & time series:** GRU/LSTM, Bayesian and frequentist methods, diagnostics and failure analysis.
 
-## 💡 How I Think About This Work
+**LLM systems:** Agentic architectures and tool calling, RAG and vector search, evaluation and guardrails for analytical use cases.
 
-> *Good models explain why something happened.
-> Great systems help people decide what to do next.*
-
-That’s the bar I try to hold myself to.
+[ORCID](https://orcid.org/0009-0008-9495-3932)
 
 ---
 
-## 📫 Connect
+## Current interests
 
-* LinkedIn: [https://www.linkedin.com/in/adityapt/](https://www.linkedin.com/in/adityapt/)
-* GitHub: [https://github.com/adityapt](https://github.com/adityapt)
-* Email: [puttaparthy.aditya@gmail.com](mailto:puttaparthy.aditya@gmail.com)
-
-I’m always happy to collaborate on:
-
-* LLM systems for analytics
-* Causal inference in real business settings
-* Open-source data science tooling
+Multi-agent LLM systems for analytics, hybrid RAG (structured + unstructured), causal discovery in high-dimensional time series, uncertainty quantification in decision-focused ML, privacy-aware and federated MMMs.
 
 ---
+
+Good models explain why something happened. Great systems help people decide what to do next. That’s the bar I aim for.
+
+---
+
+**Contact**
+
+- [LinkedIn](https://www.linkedin.com/in/adityapt/)
+- [GitHub](https://github.com/adityapt)
+- [puttaparthy.aditya@gmail.com](mailto:puttaparthy.aditya@gmail.com)
+
+Open to collaboration on LLM systems for analytics, causal inference in production, and open-source data science tooling.
