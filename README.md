@@ -53,7 +53,7 @@ Creator and maintainer of [DeepCausalMMM](https://github.com/adityapt/deepcausal
 
 `pip install deepcausalmmm` · [Docs](https://deepcausalmmm.readthedocs.io)
 
-A JOSS paper is under review.
+A JOSS paper is published - https://joss.theoj.org/papers/10.21105/joss.09914.
 
 ---
 
